@@ -4,6 +4,14 @@ In this Assignment, two program will be designed to calculate the similarity of 
 
 ## Program steps
 
+### Data preparing
+
+Due to the limitation of file size, the sequences data was zipped before being uploaded. So you should unzip it at the beginning of this assignment.
+
+```shell
+unzip data/data.zip # uzip the zip file to get the sequences data
+```
+
 ### k-mer overlap
 
 The command format is `python kmerOverlap.py <input.fa> <k> <template.fa>` and  you can change the parameter in the program to choose whether output the jaccard similarity and running time.
