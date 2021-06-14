@@ -82,7 +82,7 @@ For the eg4, the running time is 8.25s
 
 ## Algorithm of minimizerOverlap.py
 
-The unique algorithm of minimizerOverlap.py is as follows: https://github.com/kiekie233/Algorithms-of-Bioinformatics-course
+The unique algorithm of minimizerOverlap.py is as follows: 
 
 ### Get minimizer subsequences
 
@@ -117,4 +117,3 @@ For the eg4, the running time is 12.0s.
 ## Discussion
 
 The J(R,R') and J'(R,R') are both the index to describe the similarity of two sequence. Of course we can get the exact similarity of two sequences by aligning them, but this process will take too much time. So we choose J(R,R') and J'(R,R') to get the approximate conclusion of sequence similarity. For J(R,R'), we get a k-mer for each base which means there are still so much subsequence to be used to calculate the similarity. So we also used a new method minimizer to calculate the similarity. In J'(R,R'), the subsequence is the minimum subsequence of a w-length frame so that each the subsequence represents the local sequence information rather than k-mer which only represent the information of a sequence locus. Besides, the minimizer method will reduce the number of subsequences because several adjacent frame may share the same sequence. All in all, k-mer and minimizer are both great methods to calculate the similarity of two sequences in a fast way, we can choose one of them according to different situation of sequence characteristics.
-
