@@ -80,8 +80,6 @@ For the eg3, the running time is 136s.
 
 For the eg4, the running time is 8.25s
 
-![image-20210613230324592](C:\Users\kiekie\AppData\Roaming\Typora\typora-user-images\image-20210613230324592.png)
-
 ## Algorithm of minimizerOverlap.py
 
 The unique algorithm of minimizerOverlap.py is as follows: https://github.com/kiekie233/Algorithms-of-Bioinformatics-course
@@ -115,8 +113,6 @@ For the eg2, the running time is 117s.
 For the eg3, the running time is 184s.
 
 For the eg4, the running time is 12.0s.
-
-![image-20210613231621612](C:\Users\kiekie\AppData\Roaming\Typora\typora-user-images\image-20210613231621612.png)
 
 ## Discussion
 
