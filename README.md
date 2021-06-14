@@ -12,6 +12,16 @@ Due to the limitation of file size, the sequences data was zipped before being u
 unzip data/data.zip # uzip the zip file to get the sequences data
 ```
 
+There are 4 example sequences dataset and 4 corresponding template sequences in the testing dataset.
+
+For eg1.fa, a small example, there are 5 sequences in it for test the correctness of the algorithm.
+
+For eg2.fa, there are nearly 15k sequences in it. For eg4.fa, there are 1k sequences in it. They are both medium datasets with no error.
+
+For eg3.fa, there are 10k complicated sequences in it, which is a real pacbio sequencing dataset.
+
+Template 1,2,3,4 are template sequences corresponding to eg 1,2,3,4 sequences datasets for comparting the jaccard similarity between them.
+
 ### k-mer overlap
 
 The command format is `python kmerOverlap.py <input.fa> <k> <template.fa>` and  you can change the parameter in the program to choose whether output the jaccard similarity and running time.
