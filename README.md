@@ -1,6 +1,6 @@
 # Algorithms in Bioinformatics on calculating jaccard similarity
 
-In this Assignment, two program will be designed to calculate the similarity of two sequence. One is the k_mer overlap algorithm, the other is the minimizer overlap algorithm. Besides, we will optimize these two algorithms not only for saving the calculation time but also for save the space. The result, performance and discussion of these two algorithms will show below.
+In this Assignment, two program will be designed to calculate the similarity of two sequences. One is the k_mer overlap algorithm, the other is the minimizer overlap algorithm. Besides, we will optimize these two algorithms not only for saving the calculation time but also for save the space. The result, performance and discussion of these two algorithms will show below.
 
 ## Program steps
 
